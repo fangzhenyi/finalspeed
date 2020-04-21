@@ -14,7 +14,7 @@ public class FSServer {
     static FSServer udpServer;
     ConnectionProcessor imTunnelProcessor;
     Route route_udp, route_tcp, route;
-    int routePort = 150;
+    int routePort = 9150;
     String systemName = System.getProperty("os.name").toLowerCase();
 
     boolean success_firewall_windows = true;
